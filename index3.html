@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3</title>
+    <style>
+        body {
+            background-color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 500px;
+            height: auto;
+            background-color: white;
+            box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 40px;
+        }
+        .con {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .btn3 {
+            width: 100px;
+            height: 35px;
+            align-items: center;
+            background-color: #0276FF;
+            border-radius: 8px;
+            border-style: none;
+            box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+            box-sizing: border-box;
+            color: #fff;
+            display: flex;
+            flex-direction: row;
+            font-family: "RM Neue",sans-serif;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+            padding: 10px 30px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Appearance Settings</h1>
+
+        <div class="con">
+            <span>Background Color:</span>
+            <input type="color" id="background-color">
+        </div>
+
+        <div class="con">
+            <span>Post Background Color:</span>
+            <input type="color" id="post-background-color">
+        </div>
+
+        <div class="con">
+            <span>Title Color:</span>
+            <input type="color" id="title-color">
+        </div>
+
+        <div class="con">
+            <span>Text Color:</span>
+            <input type="color" id="description-color">
+        </div>
+
+        <button class="btn3" id="saveBtn">Save</button>
+    </div>
+
+    <script src="script3.js"></script>
+</body>
+</html>
